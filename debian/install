@@ -1,0 +1,2 @@
+debian/tmp/usr/lib/python*/*-packages/_pylibmc.so
+debian/tmp/usr/lib/python*/*-packages/pylibmc.py

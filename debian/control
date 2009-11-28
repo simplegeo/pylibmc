@@ -1,0 +1,35 @@
+Source: pylibmc
+Section: python
+Priority: optional
+XS-Python-Version: >= 2.5
+Maintainer: Carl Chenet <chaica@ohmytux.com>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.5), python-support, python-all-dev, python-all-dbg, libmemcached-dev
+Standards-Version: 3.8.3
+Homepage: http://pypi.python.org/pypi/pylibmc/
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/pylibmc/trunk
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/pylibmc/trunk/
+
+Package: python-pylibmc
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Suggests: memcached
+Description: libmemcached wrapper
+ Pylibmc is a Python wrapper around the accompanying C Python
+ extension _pylibmc, which is a wrapper around libmemcached
+ from TangentOrg. It also manages pooling in a multi-threading
+ environment.
+
+Package: python-pylibmc-dbg
+Architecture: any
+Priority: extra
+Section: debug
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-dbg, python-pylibmc (= ${binary:Version})
+Description: libmemcached wrapper (debug mode)
+ Pylibmc is a Python wrapper around the accompanying C Python
+ extension _pylibmc, which is a wrapper around libmemcached
+ from TangentOrg. It also manages pooling in a multi-threading
+ environment.
+ .
+ This package provides the debug mode.
+
