@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST
+MANIFEST.in
+README.rst
+_pylibmcmodule.c
+_pylibmcmodule.h
+pooling.rst
+pylibmc-version.h
+pylibmc.py
+setup.py
+tests.py
