@@ -4,7 +4,7 @@ Priority: optional
 XS-Python-Version: >= 2.5
 Maintainer: Carl Chenet <chaica@ohmytux.com>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Build-Depends: debhelper (>= 7.0.50~), python (>= 2.5), python-support, python-all-dev, python-all-dbg, libmemcached-dev
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.5), python-support, python-all-dev, python-all-dbg, libmemcached-dev (>= 0.32)
 Standards-Version: 3.8.3
 Homepage: http://pypi.python.org/pypi/pylibmc/
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/pylibmc/trunk
