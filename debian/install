@@ -1,2 +1,3 @@
 debian/tmp/usr/lib/python*/*-packages/_pylibmc.so
 debian/tmp/usr/lib/python*/*-packages/pylibmc.py
+debian/tmp/usr/lib/python*/*-packages/*.egg-info
