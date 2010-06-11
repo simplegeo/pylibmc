@@ -1,3 +1,10 @@
+pylibmc (0.9.2-1sg1) unstable; urgency=low
+
+  * Declare Debian source format.
+  * Update version to comply with new version policy.
+
+ -- Ian Eure <ian@simplegeo.com>  Thu, 10 Jun 2010 18:10:55 -0700
+
 pylibmc (0.9.2-1ubuntu3) unstable; urgency=low
 
   * Include .egg-info file, otherwise setuptools doesn't know pylibmc is
