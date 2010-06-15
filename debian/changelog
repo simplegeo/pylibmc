@@ -1,3 +1,9 @@
+pylibmc (0.9.2-1sg5) lucid; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 15 Jun 2010 23:07:39 +0000
+
 pylibmc (0.9.2-1sg1) unstable; urgency=low
 
   * Declare Debian source format.
